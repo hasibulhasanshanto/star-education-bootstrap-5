@@ -299,15 +299,123 @@
               </div>
 
               <div class="mt-5 text-center">
-                <button class="btn btn-primary px-3 py-2">See More Course</button>
+                <button class="btn btn-primary px-3 py-2">
+                  See More Course
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!--/. Courses Section End -->
+
+      <!-- Ready To Join Section Start -->
+      <section class="my-5">
+        <div class="container">
+          <div
+            class="row bg-primary p-5 d-flex align-items-center justify-content-center border rounded"
+          >
+            <div class="col-md-8 col-sm-12">
+              <div class="join-left">
+                <h3 class="text-white fw-semibold">Ready to join?</h3>
+                <p class="text-white">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="register-modal text-center">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-light px-3 py-2 text-primary fw-semibold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Register Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/. Ready To Join Section End -->
     </main>
     <!--/. Main End -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              User Registration
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS CDN -->
     <script

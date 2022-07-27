@@ -8,7 +8,6 @@ body{
 .carousel-caption{
     top: 30%; 
 }
-
 .carousel-item:before{
     content: "";
     display: block;
