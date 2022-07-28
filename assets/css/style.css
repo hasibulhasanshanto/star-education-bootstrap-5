@@ -26,12 +26,40 @@ body {
 * ------ Responsive -------
 **************************/
 
+/* x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .section-top h2 {
+    font-size: 22px;
+  }
+  .carousel-caption {
+    top: 10%;
+  }
+  .carousel-inner img {
+    min-height: 320px !important;
+  }
+
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+  .course-img {
+    width: 100% !important;
+  }
+  .course-content {
+    padding: 15px !important;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .carousel-caption {
-    top: 20%;
+    top: 15%;
   }
   .carousel-caption h1 {
-    font-size: 28px;
+    font-size: 40px;
   }
 }
